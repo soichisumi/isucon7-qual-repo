@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# for ssh : gcloud compute ssh {instance_id}
 sudo apt update
 
 sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password password root'
